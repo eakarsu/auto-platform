@@ -1,0 +1,400 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "claim-edit-and-documentation-control"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "claim-edit-and-documentation-control",
+        "title": "Claim edit and documentation control",
+        "originalPath": "/features/claim-edit-and-documentation-control"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "oem-policy-and-rate-library",
+      "vin-and-warranty-eligibility",
+      "labor-operation-validation",
+      "repair-shop-network-with-quality-ratings"
+    ],
+    "ai": true,
+    "representativeId": "oem-policy-and-rate-library",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "oem-policy-and-rate-library",
+        "title": "OEM policy and rate library",
+        "originalPath": "/features/oem-policy-and-rate-library"
+      },
+      {
+        "id": "vin-and-warranty-eligibility",
+        "title": "VIN and warranty eligibility",
+        "originalPath": "/features/vin-and-warranty-eligibility"
+      },
+      {
+        "id": "labor-operation-validation",
+        "title": "Labor operation validation",
+        "originalPath": "/features/labor-operation-validation"
+      },
+      {
+        "id": "repair-shop-network-with-quality-ratings",
+        "title": "repair shop network with quality ratings",
+        "originalPath": "/features/repair-shop-network-with-quality-ratings"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "repair-order-ingestion",
+      "diagnostic-time-recovery",
+      "sublet-and-towing-recovery",
+      "oem-appeal-package",
+      "claim-response-and-resubmission",
+      "dealer-recovery-analytics",
+      "damage-assessments",
+      "studio",
+      "computer-vision-damage-assessment",
+      "maintenance",
+      "parts",
+      "chat",
+      "diagnose",
+      "warning",
+      "insurance-estimate",
+      "recall-summary",
+      "insurance-claim-automation-generating-filings-from-damage-photos",
+      "critical-no-ai-for-damage-assessment-from-photos",
+      "insurance-estimate-generation-ai",
+      "third-party-repair-shop-network",
+      "dashboard-ai"
+    ],
+    "ai": true,
+    "representativeId": "repair-order-ingestion",
+    "description": "One assistant for 21 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "repair-order-ingestion",
+        "title": "Repair-order ingestion",
+        "originalPath": "/features/repair-order-ingestion"
+      },
+      {
+        "id": "diagnostic-time-recovery",
+        "title": "Diagnostic-time recovery",
+        "originalPath": "/features/diagnostic-time-recovery"
+      },
+      {
+        "id": "sublet-and-towing-recovery",
+        "title": "Sublet and towing recovery",
+        "originalPath": "/features/sublet-and-towing-recovery"
+      },
+      {
+        "id": "oem-appeal-package",
+        "title": "OEM appeal package",
+        "originalPath": "/features/oem-appeal-package"
+      },
+      {
+        "id": "claim-response-and-resubmission",
+        "title": "Claim response and resubmission",
+        "originalPath": "/features/claim-response-and-resubmission"
+      },
+      {
+        "id": "dealer-recovery-analytics",
+        "title": "Dealer recovery analytics",
+        "originalPath": "/features/dealer-recovery-analytics"
+      },
+      {
+        "id": "damage-assessments",
+        "title": "Damage Assessment",
+        "originalPath": "/features/damage-assessments"
+      },
+      {
+        "id": "studio",
+        "title": "Studio",
+        "originalPath": "/features/studio"
+      },
+      {
+        "id": "computer-vision-damage-assessment",
+        "title": "Computer vision damage assessment",
+        "originalPath": "/features/computer-vision-damage-assessment"
+      },
+      {
+        "id": "maintenance",
+        "title": "Maintenance",
+        "originalPath": "/features/maintenance"
+      },
+      {
+        "id": "parts",
+        "title": "Parts Catalog",
+        "originalPath": "/features/parts"
+      },
+      {
+        "id": "chat",
+        "title": "General Chat",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "diagnose",
+        "title": "AI Diagnostics",
+        "originalPath": "/features/diagnose"
+      },
+      {
+        "id": "warning",
+        "title": "Warning Explainer",
+        "originalPath": "/features/warning"
+      },
+      {
+        "id": "insurance-estimate",
+        "title": "AI Insurance Est.",
+        "originalPath": "/features/insurance-estimate"
+      },
+      {
+        "id": "recall-summary",
+        "title": "AI Recall Summary",
+        "originalPath": "/features/recall-summary"
+      },
+      {
+        "id": "insurance-claim-automation-generating-filings-from-damage-photos",
+        "title": "insurance claim automation generating filings from damage photos",
+        "originalPath": "/features/insurance-claim-automation-generating-filings-from-damage-photos"
+      },
+      {
+        "id": "critical-no-ai-for-damage-assessment-from-photos",
+        "title": "critical no ai for damage assessment from photos",
+        "originalPath": "/features/critical-no-ai-for-damage-assessment-from-photos"
+      },
+      {
+        "id": "insurance-estimate-generation-ai",
+        "title": "insurance estimate generation ai",
+        "originalPath": "/features/insurance-estimate-generation-ai"
+      },
+      {
+        "id": "third-party-repair-shop-network",
+        "title": "third party repair shop network",
+        "originalPath": "/features/third-party-repair-shop-network"
+      },
+      {
+        "id": "dashboard-ai",
+        "title": "AI Tools",
+        "originalPath": "/features/dashboard-ai"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "technician-time-reconciliation",
+      "parts-reimbursement-calculation",
+      "remittance-reconciliation",
+      "revenue",
+      "vision-based-damage-assessment-from-photos-with-repair-cost",
+      "parts-price-monitoring-with-bulk-order-timing-recommendations"
+    ],
+    "ai": true,
+    "representativeId": "technician-time-reconciliation",
+    "description": "One assistant for 6 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "technician-time-reconciliation",
+        "title": "Technician time reconciliation",
+        "originalPath": "/features/technician-time-reconciliation"
+      },
+      {
+        "id": "parts-reimbursement-calculation",
+        "title": "Parts reimbursement calculation",
+        "originalPath": "/features/parts-reimbursement-calculation"
+      },
+      {
+        "id": "remittance-reconciliation",
+        "title": "Remittance reconciliation",
+        "originalPath": "/features/remittance-reconciliation"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Optimizer",
+        "originalPath": "/features/revenue"
+      },
+      {
+        "id": "vision-based-damage-assessment-from-photos-with-repair-cost",
+        "title": "vision based damage assessment from photos with repair cost",
+        "originalPath": "/features/vision-based-damage-assessment-from-photos-with-repair-cost"
+      },
+      {
+        "id": "parts-price-monitoring-with-bulk-order-timing-recommendations",
+        "title": "parts price monitoring with bulk order timing recommendations",
+        "originalPath": "/features/parts-price-monitoring-with-bulk-order-timing-recommendations"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "recall-and-campaign-claims",
+      "campaigns",
+      "memberships",
+      "feedback"
+    ],
+    "ai": true,
+    "representativeId": "recall-and-campaign-claims",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "recall-and-campaign-claims",
+        "title": "Recall and campaign claims",
+        "originalPath": "/features/recall-and-campaign-claims"
+      },
+      {
+        "id": "campaigns",
+        "title": "Campaigns",
+        "originalPath": "/features/campaigns"
+      },
+      {
+        "id": "memberships",
+        "title": "Membership Churn Prediction",
+        "originalPath": "/features/memberships"
+      },
+      {
+        "id": "feedback",
+        "title": "Customer Sentiment Analysis",
+        "originalPath": "/features/feedback"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "rejected-claim-classification",
+      "weather-forecasts",
+      "maintenance-predictions",
+      "energy",
+      "maintenance-predict",
+      "predictive-maintenance",
+      "predictive-maintenance-flagging-vehicles-by-age-mileage-condition",
+      "predictive-maintenance-ml"
+    ],
+    "ai": true,
+    "representativeId": "rejected-claim-classification",
+    "description": "One assistant for 8 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "rejected-claim-classification",
+        "title": "Rejected claim classification",
+        "originalPath": "/features/rejected-claim-classification"
+      },
+      {
+        "id": "weather-forecasts",
+        "title": "Weather Demand Forecasting",
+        "originalPath": "/features/weather-forecasts"
+      },
+      {
+        "id": "maintenance-predictions",
+        "title": "Equipment Maintenance Predictor",
+        "originalPath": "/features/maintenance-predictions"
+      },
+      {
+        "id": "energy",
+        "title": "Energy Usage Optimizer",
+        "originalPath": "/features/energy"
+      },
+      {
+        "id": "maintenance-predict",
+        "title": "Maintenance Predict",
+        "originalPath": "/features/maintenance-predict"
+      },
+      {
+        "id": "predictive-maintenance",
+        "title": "AI Predictive Maint.",
+        "originalPath": "/features/predictive-maintenance"
+      },
+      {
+        "id": "predictive-maintenance-flagging-vehicles-by-age-mileage-condition",
+        "title": "predictive maintenance flagging vehicles by age mileage condition",
+        "originalPath": "/features/predictive-maintenance-flagging-vehicles-by-age-mileage-condition"
+      },
+      {
+        "id": "predictive-maintenance-ml",
+        "title": "predictive maintenance ml",
+        "originalPath": "/features/predictive-maintenance-ml"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "staffing"
+    ],
+    "ai": true,
+    "representativeId": "staffing",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "staffing",
+        "title": "Smart Staffing Optimizer",
+        "originalPath": "/features/staffing"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "history"
+    ],
+    "ai": true,
+    "representativeId": "history",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "history",
+        "title": "History",
+        "originalPath": "/features/history"
+      }
+    ]
+  }
+]

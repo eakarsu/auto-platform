@@ -1,0 +1,1574 @@
+{
+  "mapped": [
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "oem-policy-and-rate-library",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "oem-policy-and-rate-library",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "vin-and-warranty-eligibility",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "vin-and-warranty-eligibility",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "repair-order-ingestion",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "repair-order-ingestion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "labor-operation-validation",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "labor-operation-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "technician-time-reconciliation",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "technician-time-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "parts-reimbursement-calculation",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "parts-reimbursement-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "diagnostic-time-recovery",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "diagnostic-time-recovery",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "sublet-and-towing-recovery",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "sublet-and-towing-recovery",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "recall-and-campaign-claims",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "recall-and-campaign-claims",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "claim-edit-and-documentation-control",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "claim-edit-and-documentation-control",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "rejected-claim-classification",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "rejected-claim-classification",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "oem-appeal-package",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "oem-appeal-package",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "claim-response-and-resubmission",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "claim-response-and-resubmission",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "remittance-reconciliation",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "remittance-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "dealer-recovery-analytics",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+      "canonical": "dealer-recovery-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/appointments",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "appointments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/damage-assessments",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "damage-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/parts-pricing",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "parts-pricing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/insurance-claims",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "insurance-claims",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/repair-timelines",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "repair-timelines",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/cost-estimates",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "cost-estimates",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/work-orders",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "work-orders",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/invoices",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/technicians",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "technicians",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/suppliers",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "suppliers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/photos",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "photos",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/customers",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/vehicles",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "vehicles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/supplement-approval-tracker",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "supplement-approval-tracker",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/suppliers",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/pages/Dashboard.jsx",
+      "canonical": "suppliers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/customers",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/pages/Dashboard.jsx",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "/vehicles",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/pages/Dashboard.jsx",
+      "canonical": "vehicles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "sourceKey": "integrations",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+      "canonical": "connections",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "inventory",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "inventory",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "customers",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "clients",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "trade-ins",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "trade-ins",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "trade-in-confidence",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "trade-in-confidence",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "fni",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "fni",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "leads",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "leads",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "deals",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "deals",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "reports",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "service",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "service",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "inspections",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "inspections",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "test-drives",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "test-drives",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "followups",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "followups",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "campaigns",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "campaigns",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "staff",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "staff",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "commissions",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "commissions",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "documents",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "documents",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "reports",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "ai-studio",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "studio",
+      "kind": "route"
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "sourceKey": "webhooks",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "weather-forecasts",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "weather-forecasts",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "chemical-dosing",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "chemical-dosing",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "maintenance-predictions",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "maintenance-predictions",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "staffing",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "staffing",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "memberships",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "memberships",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "revenue",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "revenue",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "feedback",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "feedback",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "energy",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "energy",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "locations",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "locations",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "equipment",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "employees",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "employees",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "chemicals",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "chemicals",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "service-packages",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "service-packages",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "customers",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "ai-history",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+      "canonical": "history",
+      "kind": "route"
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "sourceKey": "webhooks",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/ai-maintenance-predict",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "maintenance-predict",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/ai-recall-impact",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "recall-impact",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/cf-agentic-vehicle-health-monitoring",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "agentic-vehicle-health-monitoring",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/cf-computer-vision-damage-assessment",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "computer-vision-damage-assessment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/cf-recall-proactive-management",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "recall-proactive-management",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/cf-smart-maintenance-scheduling",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "smart-maintenance-scheduling",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/cf-parts-compatibility-optimization",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "parts-compatibility-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-maintenance-without-maintenance",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "maintenance-without-maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-recalls-without-recall",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "recalls-without-recall",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-services-without-service",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "services-without-service",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-real-vehicle-api-integration-bmw-connecteddrive",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "real-vehicle-api-integration-bmw-connecteddrive",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-parts-ordering-integration-with-retailers",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "parts-ordering-integration-with-retailers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-integration-with-mechanics-service-shops",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "integration-with-mechanics-service-shops",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-appointment-booking-scheduling-module",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "appointment-booking-scheduling-module",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-notifications-module-grep-0",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "notifications-module-grep-0",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-audit-logging-grep-0",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "audit-logging-grep-0",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-webhooks-for-recall-safety-alerts",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "webhooks-for-recall-safety-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/gap-no-mobile-app-despite-consumer",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "mobile-app-despite-consumer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/vehicles",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "vehicles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/manuals",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "manuals",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/specs",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "specs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/troubleshooting",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "troubleshooting",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/maintenance",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/warnings",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "warnings",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/safety",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "safety",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/faq",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "faq",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/tutorials",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "tutorials",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/recalls",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "recalls",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/parts",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "parts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/services",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "services",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/warranty",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "warranty",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "/feedback",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "canonical": "feedback",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "chat",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+      "canonical": "chat",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "diagnose",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+      "canonical": "diagnose",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "maintenance",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "warning",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+      "canonical": "warning",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "parts",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+      "canonical": "parts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "vehicles",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "vehicles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "manuals",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "manuals",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "troubleshooting",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "troubleshooting",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "maintenance",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "safety",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "safety",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "warnings",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "warnings",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "faq",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "faq",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "recalls",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "recalls",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "parts",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "parts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "services",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "services",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "tutorials",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "tutorials",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "warranty",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "warranty",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "specs",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "specs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "sourceKey": "feedback",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+      "canonical": "feedback",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/inspections",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "inspections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/compliance",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/condition-scores",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "condition-scores",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/market-values",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "market-values",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/damage-reports",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "damage-reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/vehicle-history",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "vehicle-history",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/recall-alerts",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "recall-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/insurance-estimates",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "insurance-estimates",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/maintenance-schedules",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/parts-pricing",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "parts-pricing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/fleet-summary",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "fleet-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/vin-decoder",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "vin-decoder",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/vision-damage",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "vision-damage",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/certificates",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "certificates",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/ai/predictive-maintenance",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "predictive-maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/ai/insurance-estimate",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "insurance-estimate",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/ai/recall-summary",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "recall-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/ai/nhtsa-recall-lookup",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "nhtsa-recall-lookup",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/ai/parts-price-monitor",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "parts-price-monitor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/adas-calibration-readiness",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "canonical": "adas-calibration-readiness",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "/maintenance-schedules",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/pages/Dashboard.js",
+      "canonical": "maintenance-schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "cf-vision-based-damage-assessment-from-photos-with-repair-cost",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "vision-based-damage-assessment-from-photos-with-repair-cost",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "cf-predictive-maintenance-flagging-vehicles-by-age-mileage-condition",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "predictive-maintenance-flagging-vehicles-by-age-mileage-condition",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "cf-parts-price-monitoring-with-bulk-order-timing-recommendations",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "parts-price-monitoring-with-bulk-order-timing-recommendations",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "cf-repair-shop-network-with-quality-ratings",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "repair-shop-network-with-quality-ratings",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "cf-insurance-claim-automation-generating-filings-from-damage-photos",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "insurance-claim-automation-generating-filings-from-damage-photos",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "cf-vin-decoder-integration-for-auto-populated-vehicle-profiles",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "vin-decoder-integration-for-auto-populated-vehicle-profiles",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-critical-no-ai-for-damage-assessment-from-photos",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "critical-no-ai-for-damage-assessment-from-photos",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-predictive-maintenance-ml",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "predictive-maintenance-ml",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-insurance-estimate-generation-ai",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "insurance-estimate-generation-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-fraud-detection-on-inspection-data",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "fraud-detection-on-inspection-data",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-integration-with-oem-recall-databases-only-manual",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "integration-with-oem-recall-databases-only-manual",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-parts-supplier-integration",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "parts-supplier-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-third-party-repair-shop-network",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "third-party-repair-shop-network",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-insurance-claim-integration-direct-insurer-api",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "insurance-claim-integration-direct-insurer-api",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-webhooks-notifications-for-recall-events",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "webhooks-notifications-for-recall-events",
+      "kind": "route"
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "sourceKey": "gap-no-customer-self-service-portal",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "canonical": "customer-self-service-portal",
+      "kind": "route"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/tickets",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-tickets",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/customers",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/inventory",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/orders",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-orders",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/quotes",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-quotes",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/warranty-claims",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-warranty-claims",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/pos",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-pos",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/reports",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/repair-sla-monitor",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-repair-sla-monitor",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/ai",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-ai",
+      "kind": "definition"
+    },
+    {
+      "project": "repairShop",
+      "sourceKey": "/dashboard/settings",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "canonical": "dashboard-settings",
+      "kind": "definition"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai-auto-dealer-warranty-reimbursement-recovery",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "/ai-tools",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "/settings",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "ai-tools",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAutoBodyCollisionEstimator",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarDealershipSalesOptimizer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "login",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "/feature/:featureKey",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "/ai-tools/:toolKey",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICarWashChainOptimizer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "/ai",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIpoweredinteractive",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIpoweredinteractive",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIpoweredinteractive",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "ai",
+      "source": "/Volumes/external/projects/AIpoweredinteractive",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIpoweredinteractive",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIpoweredinteractive",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/inspections/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/compliance/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/condition-scores/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/market-values/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/damage-reports/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/vehicle-history/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/recall-alerts/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/insurance-estimates/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/maintenance-schedules/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIVehicleInspectionCertification",
+      "key": "/parts-pricing/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "repairShop",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "feature": "oem-policy-and-rate-library",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "vin-and-warranty-eligibility",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "repair-order-ingestion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "labor-operation-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "technician-time-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "parts-reimbursement-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "diagnostic-time-recovery",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "sublet-and-towing-recovery",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "recall-and-campaign-claims",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "claim-edit-and-documentation-control",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "rejected-claim-classification",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "oem-appeal-package",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "claim-response-and-resubmission",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "remittance-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "dealer-recovery-analytics",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "clients",
+      "field": "email",
+      "reason": "Conflicting source field types retained in source map; native field keeps first definition."
+    }
+  ]
+}

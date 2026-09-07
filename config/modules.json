@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "name": "Auto dealer warranty reimbursement recovery",
+    "sourceProject": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "services": []
+  },
+  {
+    "id": "AIAutoBodyCollisionEstimator",
+    "name": "Auto body collision estimator",
+    "sourceProject": "AIAutoBodyCollisionEstimator",
+    "services": []
+  },
+  {
+    "id": "AICarDealershipSalesOptimizer",
+    "name": "Car dealership sales optimizer",
+    "sourceProject": "AICarDealershipSalesOptimizer",
+    "services": []
+  },
+  {
+    "id": "AICarWashChainOptimizer",
+    "name": "Car wash chain optimizer",
+    "sourceProject": "AICarWashChainOptimizer",
+    "services": []
+  },
+  {
+    "id": "AIpoweredinteractive",
+    "name": "Poweredinteractive",
+    "sourceProject": "AIpoweredinteractive",
+    "services": []
+  },
+  {
+    "id": "AIVehicleInspectionCertification",
+    "name": "Vehicle inspection certification",
+    "sourceProject": "AIVehicleInspectionCertification",
+    "services": []
+  },
+  {
+    "id": "repairShop",
+    "name": "Repair shop",
+    "sourceProject": "repairShop",
+    "services": []
+  }
+]

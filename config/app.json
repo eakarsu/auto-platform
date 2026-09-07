@@ -1,0 +1,29 @@
+{
+  "id": "auto-platform",
+  "title": "Automotive sales, repair & inspections",
+  "buyer": "Dealers and vehicle-service businesses",
+  "sourceCount": 7,
+  "sources": [
+    "ai-auto-dealer-warranty-reimbursement-recovery",
+    "AIAutoBodyCollisionEstimator",
+    "AICarDealershipSalesOptimizer",
+    "AICarWashChainOptimizer",
+    "AIpoweredinteractive",
+    "AIVehicleInspectionCertification",
+    "repairShop"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46035,
+  "productName": "Automotive sales, repair Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery",
+    "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+    "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+    "/Volumes/external/projects/AICarWashChainOptimizer",
+    "/Volumes/external/projects/AIpoweredinteractive",
+    "/Volumes/external/projects/AIVehicleInspectionCertification",
+    "/Volumes/external/projects/repairShop"
+  ]
+}

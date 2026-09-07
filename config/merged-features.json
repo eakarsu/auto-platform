@@ -1,0 +1,6369 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "vehicle_type",
+        "label": "Vehicle Type",
+        "type": "text"
+      },
+      {
+        "name": "vehicle_plate",
+        "label": "License Plate",
+        "type": "text"
+      },
+      {
+        "name": "preferred_location",
+        "label": "Preferred Location ID",
+        "type": "number"
+      },
+      {
+        "name": "total_visits",
+        "label": "Total Visits",
+        "type": "number"
+      },
+      {
+        "name": "total_spent",
+        "label": "Total Spent",
+        "type": "number"
+      },
+      {
+        "name": "last_visit",
+        "label": "Last Visit",
+        "type": "date"
+      },
+      {
+        "name": "satisfaction_score",
+        "label": "Satisfaction Score",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/customers",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Customers"
+      },
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/customers",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Customer Management"
+      },
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "customers",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Customers"
+      },
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "customers",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Customer Management"
+      },
+      {
+        "module": "repairShop",
+        "path": "/dashboard/customers",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Customers"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "documents",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Documents"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/invoices",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Invoices"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Outcome Analytics"
+      },
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Analytics"
+      },
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "reports",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Reports"
+      },
+      {
+        "module": "repairShop",
+        "path": "/dashboard/reports",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "integrations",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator",
+        "kind": "route",
+        "label": "Integrations"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "oem-policy-and-rate-library",
+    "title": "OEM policy and rate library",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile oem policy and rate library using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "oem-policy-and-rate-library",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "OEM policy and rate library"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/oem-policy-and-rate-library",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vin-and-warranty-eligibility",
+    "title": "VIN and warranty eligibility",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile vin and warranty eligibility using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "vin-and-warranty-eligibility",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "VIN and warranty eligibility"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/vin-and-warranty-eligibility",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "repair-order-ingestion",
+    "title": "Repair-order ingestion",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile repair-order ingestion using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "repair-order-ingestion",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Repair-order ingestion"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/repair-order-ingestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "labor-operation-validation",
+    "title": "Labor operation validation",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile labor operation validation using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "labor-operation-validation",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Labor operation validation"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/labor-operation-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "technician-time-reconciliation",
+    "title": "Technician time reconciliation",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile technician time reconciliation using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "technician-time-reconciliation",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Technician time reconciliation"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/technician-time-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts-reimbursement-calculation",
+    "title": "Parts reimbursement calculation",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile parts reimbursement calculation using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "parts-reimbursement-calculation",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Parts reimbursement calculation"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/parts-reimbursement-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "diagnostic-time-recovery",
+    "title": "Diagnostic-time recovery",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile diagnostic-time recovery using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "diagnostic-time-recovery",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Diagnostic-time recovery"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/diagnostic-time-recovery",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sublet-and-towing-recovery",
+    "title": "Sublet and towing recovery",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile sublet and towing recovery using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "sublet-and-towing-recovery",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Sublet and towing recovery"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/sublet-and-towing-recovery",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recall-and-campaign-claims",
+    "title": "Recall and campaign claims",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile recall and campaign claims using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "recall-and-campaign-claims",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Recall and campaign claims"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/recall-and-campaign-claims",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "claim-edit-and-documentation-control",
+    "title": "Claim edit and documentation control",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile claim edit and documentation control using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "claim-edit-and-documentation-control",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Claim edit and documentation control"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/claim-edit-and-documentation-control",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rejected-claim-classification",
+    "title": "Rejected claim classification",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile rejected claim classification using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "rejected-claim-classification",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Rejected claim classification"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/rejected-claim-classification",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "oem-appeal-package",
+    "title": "OEM appeal package",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile oem appeal package using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "oem-appeal-package",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "OEM appeal package"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/oem-appeal-package",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "claim-response-and-resubmission",
+    "title": "Claim response and resubmission",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile claim response and resubmission using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "claim-response-and-resubmission",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Claim response and resubmission"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/claim-response-and-resubmission",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "remittance-reconciliation",
+    "title": "Remittance reconciliation",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile remittance reconciliation using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "remittance-reconciliation",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Remittance reconciliation"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/remittance-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dealer-recovery-analytics",
+    "title": "Dealer recovery analytics",
+    "group": "Auto dealer warranty reimbursement recovery",
+    "description": "Reconcile dealer recovery analytics using repair orders, VIN warranty status, labor operations, technician time, parts costs, OEM policies, claim status, and remittances.",
+    "fields": [
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "repairOrder",
+        "label": "Repair Order / VIN",
+        "type": "text"
+      },
+      {
+        "name": "reimbursedAmount",
+        "label": "OEM Reimbursed Amount",
+        "type": "number"
+      },
+      {
+        "name": "eligibleAmount",
+        "label": "Dealer Eligible Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-auto-dealer-warranty-reimbursement-recovery",
+        "path": "dealer-recovery-analytics",
+        "source": "/Volumes/external/projects/ai-auto-dealer-warranty-reimbursement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Dealer recovery analytics"
+      }
+    ],
+    "owner": "ai-auto-dealer-warranty-reimbursement-recovery",
+    "alternatives": [],
+    "path": "/features/dealer-recovery-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointments",
+    "title": "Appointments",
+    "group": "Auto body collision estimator",
+    "description": "Organize appointments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/appointments",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Appointments"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/appointments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "damage-assessments",
+    "title": "Damage Assessment",
+    "group": "Auto body collision estimator",
+    "description": "Organize damage assessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/damage-assessments",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Damage Assessment"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/damage-assessments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts-pricing",
+    "title": "OEM Parts Pricing",
+    "group": "Auto body collision estimator",
+    "description": "Organize oem parts pricing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/parts-pricing",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "OEM Parts Pricing"
+      },
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/parts-pricing",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Parts Pricing"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/parts-pricing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory",
+    "title": "Inventory",
+    "group": "Auto body collision estimator",
+    "description": "Organize inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Inventory"
+      },
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "inventory",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Inventory"
+      },
+      {
+        "module": "repairShop",
+        "path": "/dashboard/inventory",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Inventory"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-claims",
+    "title": "Insurance Claims",
+    "group": "Auto body collision estimator",
+    "description": "Organize insurance claims and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/insurance-claims",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Insurance Claims"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/insurance-claims",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "repair-timelines",
+    "title": "Repair Timelines",
+    "group": "Auto body collision estimator",
+    "description": "Organize repair timelines and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/repair-timelines",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Repair Timelines"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/repair-timelines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cost-estimates",
+    "title": "Cost Estimates",
+    "group": "Auto body collision estimator",
+    "description": "Organize cost estimates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/cost-estimates",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Cost Estimates"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/cost-estimates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "work-orders",
+    "title": "Work Orders",
+    "group": "Auto body collision estimator",
+    "description": "Organize work orders and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/work-orders",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Work Orders"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/work-orders",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "technicians",
+    "title": "Technicians",
+    "group": "Auto body collision estimator",
+    "description": "Organize technicians and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/technicians",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Technicians"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/technicians",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "suppliers",
+    "title": "Suppliers",
+    "group": "Auto body collision estimator",
+    "description": "Organize suppliers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/suppliers",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Suppliers"
+      },
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/suppliers",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Supplier Directory"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/suppliers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "photos",
+    "title": "Photo Gallery",
+    "group": "Auto body collision estimator",
+    "description": "Organize photo gallery and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/photos",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Photo Gallery"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/photos",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vehicles",
+    "title": "Vehicles",
+    "group": "Auto body collision estimator",
+    "description": "Organize vehicles and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/vehicles",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Vehicles"
+      },
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/vehicles",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Vehicle Profiles"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/vehicles",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Vehicle Models"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "vehicles",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Vehicle Models"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/vehicles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplement-approval-tracker",
+    "title": "Supplements",
+    "group": "Auto body collision estimator",
+    "description": "Organize supplements and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAutoBodyCollisionEstimator",
+        "path": "/supplement-approval-tracker",
+        "source": "/Volumes/external/projects/AIAutoBodyCollisionEstimator/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Supplements"
+      }
+    ],
+    "owner": "AIAutoBodyCollisionEstimator",
+    "alternatives": [],
+    "path": "/features/supplement-approval-tracker",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "trade-ins",
+    "title": "Trade ins",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize trade ins and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "trade-ins",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Trade ins"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/trade-ins",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "trade-in-confidence",
+    "title": "Trade in confidence",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize trade in confidence and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "trade-in-confidence",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Trade in confidence"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/trade-in-confidence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fni",
+    "title": "Fni",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize fni and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "fni",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Fni"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/fni",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "leads",
+    "title": "Leads",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize leads and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "leads",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Leads"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/leads",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deals",
+    "title": "Deals",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize deals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "deals",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Deals"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/deals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "service",
+    "title": "Service",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize service and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "service",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Service"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/service",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inspections",
+    "title": "Inspections",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize inspections and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "inspections",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Inspections"
+      },
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/inspections",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Vehicle Inspections"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/inspections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "test-drives",
+    "title": "Test drives",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize test drives and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "test-drives",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Test drives"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/test-drives",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "followups",
+    "title": "Followups",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize followups and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "followups",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Followups"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/followups",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "campaigns",
+    "title": "Campaigns",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize campaigns and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "campaigns",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Campaigns"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/campaigns",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff",
+    "title": "Staff",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize staff and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "staff",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Staff"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/staff",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commissions",
+    "title": "Commissions",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize commissions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "commissions",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Commissions"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/commissions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "studio",
+    "title": "Studio",
+    "group": "Car dealership sales optimizer",
+    "description": "Organize studio and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "ai-studio",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Studio"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/studio",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks",
+    "title": "Webhooks",
+    "group": "Car dealership sales optimizer",
+    "description": "Prepare webhooks requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AICarDealershipSalesOptimizer",
+        "path": "webhooks",
+        "source": "/Volumes/external/projects/AICarDealershipSalesOptimizer",
+        "kind": "route",
+        "label": "Webhooks"
+      },
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "webhooks",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+        "kind": "route",
+        "label": "Webhooks"
+      }
+    ],
+    "owner": "AICarDealershipSalesOptimizer",
+    "alternatives": [],
+    "path": "/features/webhooks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weather-forecasts",
+    "title": "Weather Demand Forecasting",
+    "group": "Car wash chain optimizer",
+    "description": "AI-powered demand predictions based on weather patterns, historical data, and seasonal trends.",
+    "fields": [
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "forecast_date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "select",
+        "options": [
+          "Sunny",
+          "Partly Cloudy",
+          "Overcast",
+          "Rainy",
+          "Thunderstorm",
+          "Windy",
+          "Hot",
+          "Drizzle"
+        ]
+      },
+      {
+        "name": "temp_high",
+        "label": "High Temp (\u00b0F)",
+        "type": "number"
+      },
+      {
+        "name": "temp_low",
+        "label": "Low Temp (\u00b0F)",
+        "type": "number"
+      },
+      {
+        "name": "precipitation_chance",
+        "label": "Precipitation %",
+        "type": "number"
+      },
+      {
+        "name": "humidity",
+        "label": "Humidity %",
+        "type": "number"
+      },
+      {
+        "name": "predicted_demand",
+        "label": "Predicted Demand",
+        "type": "select",
+        "options": [
+          "very_low",
+          "low",
+          "medium",
+          "high",
+          "very_high"
+        ]
+      },
+      {
+        "name": "predicted_cars",
+        "label": "Predicted Cars",
+        "type": "number"
+      },
+      {
+        "name": "ai_recommendation",
+        "label": "AI Recommendation",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "weather-forecasts",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Weather Demand Forecasting"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/weather-forecasts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chemical-dosing",
+    "title": "Chemical Dosing Optimization",
+    "group": "Car wash chain optimizer",
+    "description": "AI optimizes chemical usage based on water hardness, temperature, and soil levels for cost savings.",
+    "fields": [
+      {
+        "name": "chemical_id",
+        "label": "Chemical ID",
+        "type": "number"
+      },
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "name": "water_hardness",
+        "label": "Water Hardness (ppm)",
+        "type": "number"
+      },
+      {
+        "name": "temperature",
+        "label": "Temperature (\u00b0F)",
+        "type": "number"
+      },
+      {
+        "name": "vehicle_soil_level",
+        "label": "Soil Level",
+        "type": "select",
+        "options": [
+          "light",
+          "medium",
+          "heavy"
+        ]
+      },
+      {
+        "name": "recommended_dosage",
+        "label": "Recommended Dosage",
+        "type": "number"
+      },
+      {
+        "name": "actual_dosage",
+        "label": "Actual Dosage",
+        "type": "number"
+      },
+      {
+        "name": "effectiveness_score",
+        "label": "Effectiveness Score",
+        "type": "number"
+      },
+      {
+        "name": "ai_optimization",
+        "label": "AI Optimization Notes",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "chemical-dosing",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Chemical Dosing Optimization"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/chemical-dosing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance-predictions",
+    "title": "Equipment Maintenance Predictor",
+    "group": "Car wash chain optimizer",
+    "description": "AI predicts equipment failures before they happen, reducing downtime and repair costs.",
+    "fields": [
+      {
+        "name": "equipment_id",
+        "label": "Equipment ID",
+        "type": "number"
+      },
+      {
+        "name": "predicted_failure_date",
+        "label": "Predicted Failure Date",
+        "type": "date"
+      },
+      {
+        "name": "confidence",
+        "label": "Confidence %",
+        "type": "number"
+      },
+      {
+        "name": "risk_level",
+        "label": "Risk Level",
+        "type": "select",
+        "options": [
+          "low",
+          "medium",
+          "high",
+          "critical"
+        ]
+      },
+      {
+        "name": "recommended_action",
+        "label": "Recommended Action",
+        "type": "textarea"
+      },
+      {
+        "name": "estimated_cost",
+        "label": "Estimated Cost",
+        "type": "number"
+      },
+      {
+        "name": "parts_needed",
+        "label": "Parts Needed",
+        "type": "text"
+      },
+      {
+        "name": "ai_analysis",
+        "label": "AI Analysis",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "maintenance-predictions",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Equipment Maintenance Predictor"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/maintenance-predictions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staffing",
+    "title": "Smart Staffing Optimizer",
+    "group": "Car wash chain optimizer",
+    "description": "AI creates optimal staff schedules based on demand forecasts, weather, and employee availability.",
+    "fields": [
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "name": "shift",
+        "label": "Shift",
+        "type": "select",
+        "options": [
+          "morning",
+          "afternoon",
+          "evening"
+        ]
+      },
+      {
+        "name": "required_staff",
+        "label": "Required Staff",
+        "type": "number"
+      },
+      {
+        "name": "predicted_demand",
+        "label": "Predicted Demand",
+        "type": "select",
+        "options": [
+          "very_low",
+          "low",
+          "medium",
+          "high",
+          "very_high"
+        ]
+      },
+      {
+        "name": "weather_factor",
+        "label": "Weather Factor",
+        "type": "number"
+      },
+      {
+        "name": "employee_ids",
+        "label": "Employee IDs (comma-separated)",
+        "type": "text"
+      },
+      {
+        "name": "labor_cost",
+        "label": "Labor Cost",
+        "type": "number"
+      },
+      {
+        "name": "ai_recommendation",
+        "label": "AI Recommendation",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "staffing",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Smart Staffing Optimizer"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/staffing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "memberships",
+    "title": "Membership Churn Prediction",
+    "group": "Car wash chain optimizer",
+    "description": "AI identifies at-risk members and suggests personalized retention strategies.",
+    "fields": [
+      {
+        "name": "customer_name",
+        "label": "Customer Name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "plan_type",
+        "label": "Plan Type",
+        "type": "select",
+        "options": [
+          "Basic",
+          "Premium",
+          "Ultimate"
+        ]
+      },
+      {
+        "name": "monthly_price",
+        "label": "Monthly Price",
+        "type": "number"
+      },
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "start_date",
+        "label": "Start Date",
+        "type": "date"
+      },
+      {
+        "name": "renewal_date",
+        "label": "Renewal Date",
+        "type": "date"
+      },
+      {
+        "name": "washes_this_month",
+        "label": "Washes This Month",
+        "type": "number"
+      },
+      {
+        "name": "lifetime_value",
+        "label": "Lifetime Value",
+        "type": "number"
+      },
+      {
+        "name": "churn_risk",
+        "label": "Churn Risk %",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "memberships",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Membership Churn Prediction"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/memberships",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "revenue",
+    "title": "Revenue Optimizer",
+    "group": "Car wash chain optimizer",
+    "description": "AI analyzes revenue patterns and suggests pricing, upsell, and promotional strategies.",
+    "fields": [
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "name": "total_revenue",
+        "label": "Total Revenue",
+        "type": "number"
+      },
+      {
+        "name": "total_cars",
+        "label": "Total Cars",
+        "type": "number"
+      },
+      {
+        "name": "avg_ticket",
+        "label": "Avg Ticket",
+        "type": "number"
+      },
+      {
+        "name": "membership_revenue",
+        "label": "Membership Revenue",
+        "type": "number"
+      },
+      {
+        "name": "walk_in_revenue",
+        "label": "Walk-in Revenue",
+        "type": "number"
+      },
+      {
+        "name": "top_service",
+        "label": "Top Service",
+        "type": "text"
+      },
+      {
+        "name": "ai_insights",
+        "label": "AI Insights",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "revenue",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Revenue Optimizer"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/revenue",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feedback",
+    "title": "Customer Sentiment Analysis",
+    "group": "Car wash chain optimizer",
+    "description": "AI analyzes customer feedback to identify trends, issues, and improvement opportunities.",
+    "fields": [
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "rating",
+        "label": "Rating (1-5)",
+        "type": "number"
+      },
+      {
+        "name": "comment",
+        "label": "Comment",
+        "type": "textarea"
+      },
+      {
+        "name": "service_date",
+        "label": "Service Date",
+        "type": "date"
+      },
+      {
+        "name": "service_type",
+        "label": "Service Type",
+        "type": "text"
+      },
+      {
+        "name": "sentiment",
+        "label": "Sentiment",
+        "type": "select",
+        "options": [
+          "positive",
+          "neutral",
+          "negative"
+        ]
+      },
+      {
+        "name": "sentiment_score",
+        "label": "Sentiment Score",
+        "type": "number"
+      },
+      {
+        "name": "ai_analysis",
+        "label": "AI Analysis",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "feedback",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Customer Sentiment Analysis"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/feedback",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Feedback"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "feedback",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Feedback"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/feedback",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "energy",
+    "title": "Energy Usage Optimizer",
+    "group": "Car wash chain optimizer",
+    "description": "AI monitors and optimizes energy consumption, water usage, and sustainability metrics.",
+    "fields": [
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "name": "electricity_kwh",
+        "label": "Electricity (kWh)",
+        "type": "number"
+      },
+      {
+        "name": "water_gallons",
+        "label": "Water (gallons)",
+        "type": "number"
+      },
+      {
+        "name": "gas_therms",
+        "label": "Gas (therms)",
+        "type": "number"
+      },
+      {
+        "name": "total_cost",
+        "label": "Total Cost",
+        "type": "number"
+      },
+      {
+        "name": "cars_washed",
+        "label": "Cars Washed",
+        "type": "number"
+      },
+      {
+        "name": "cost_per_car",
+        "label": "Cost Per Car",
+        "type": "number"
+      },
+      {
+        "name": "ai_optimization",
+        "label": "AI Optimization",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "energy",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Energy Usage Optimizer"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/energy",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "locations",
+    "title": "Location Management",
+    "group": "Car wash chain optimizer",
+    "description": "Manage all car wash locations, operating hours, capacity, and performance metrics.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "name": "state",
+        "label": "State",
+        "type": "text"
+      },
+      {
+        "name": "zip",
+        "label": "ZIP",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "capacity",
+        "label": "Capacity",
+        "type": "number"
+      },
+      {
+        "name": "operating_hours",
+        "label": "Operating Hours",
+        "type": "number"
+      },
+      {
+        "name": "monthly_revenue",
+        "label": "Monthly Revenue",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "locations",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Location Management"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/locations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment",
+    "title": "Equipment Inventory",
+    "group": "Car wash chain optimizer",
+    "description": "Track all car wash equipment, health scores, maintenance schedules, and operational status.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "select",
+        "options": [
+          "Conveyor System",
+          "Pressure Washer",
+          "Chemical Dispenser",
+          "Air Dryer",
+          "Wheel Washer",
+          "Water System",
+          "Brush System",
+          "POS System",
+          "Vacuum System",
+          "Signage"
+        ]
+      },
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "manufacturer",
+        "label": "Manufacturer",
+        "type": "text"
+      },
+      {
+        "name": "model",
+        "label": "Model",
+        "type": "text"
+      },
+      {
+        "name": "install_date",
+        "label": "Install Date",
+        "type": "date"
+      },
+      {
+        "name": "last_maintenance",
+        "label": "Last Maintenance",
+        "type": "date"
+      },
+      {
+        "name": "next_maintenance",
+        "label": "Next Maintenance",
+        "type": "date"
+      },
+      {
+        "name": "health_score",
+        "label": "Health Score",
+        "type": "number"
+      },
+      {
+        "name": "hours_used",
+        "label": "Hours Used",
+        "type": "number"
+      },
+      {
+        "name": "purchase_cost",
+        "label": "Purchase Cost",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "equipment",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Equipment Inventory"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "employees",
+    "title": "Employee Management",
+    "group": "Car wash chain optimizer",
+    "description": "Manage staff profiles, performance scores, certifications, scheduling, and payroll data.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "role",
+        "label": "Role",
+        "type": "select",
+        "options": [
+          "Site Manager",
+          "Wash Technician",
+          "Equipment Technician",
+          "Customer Service"
+        ]
+      },
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "hourly_rate",
+        "label": "Hourly Rate",
+        "type": "number"
+      },
+      {
+        "name": "hire_date",
+        "label": "Hire Date",
+        "type": "date"
+      },
+      {
+        "name": "hours_per_week",
+        "label": "Hours/Week",
+        "type": "number"
+      },
+      {
+        "name": "performance_score",
+        "label": "Performance Score",
+        "type": "number"
+      },
+      {
+        "name": "certifications",
+        "label": "Certifications",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "employees",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Employee Management"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/employees",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chemicals",
+    "title": "Chemical Inventory",
+    "group": "Car wash chain optimizer",
+    "description": "Track chemical supplies, reorder levels, safety ratings, and supplier information.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "select",
+        "options": [
+          "Pre-soak",
+          "Polish/Wax",
+          "Degreaser",
+          "Rinse Aid",
+          "Tire Cleaner",
+          "Bug Remover",
+          "Sealant",
+          "Wheel Cleaner",
+          "Foam Soap",
+          "Rinse",
+          "Undercarriage",
+          "All-Purpose",
+          "Rust Inhibitor",
+          "Fragrance",
+          "Wax"
+        ]
+      },
+      {
+        "name": "supplier",
+        "label": "Supplier",
+        "type": "text"
+      },
+      {
+        "name": "unit_cost",
+        "label": "Unit Cost",
+        "type": "number"
+      },
+      {
+        "name": "quantity_on_hand",
+        "label": "Quantity On Hand",
+        "type": "number"
+      },
+      {
+        "name": "unit",
+        "label": "Unit",
+        "type": "select",
+        "options": [
+          "gallons",
+          "liters",
+          "pounds",
+          "ounces"
+        ]
+      },
+      {
+        "name": "reorder_level",
+        "label": "Reorder Level",
+        "type": "number"
+      },
+      {
+        "name": "optimal_dosage",
+        "label": "Optimal Dosage",
+        "type": "number"
+      },
+      {
+        "name": "location_id",
+        "label": "Location ID",
+        "type": "number"
+      },
+      {
+        "name": "ph_level",
+        "label": "pH Level",
+        "type": "number"
+      },
+      {
+        "name": "safety_rating",
+        "label": "Safety Rating",
+        "type": "select",
+        "options": [
+          "eco-safe",
+          "standard",
+          "caution",
+          "hazardous"
+        ]
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "chemicals",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Chemical Inventory"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/chemicals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "service-packages",
+    "title": "Service Packages",
+    "group": "Car wash chain optimizer",
+    "description": "Manage wash packages, pricing, inclusions, and track popularity and profitability.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "price",
+        "label": "Price",
+        "type": "number"
+      },
+      {
+        "name": "duration_minutes",
+        "label": "Duration (min)",
+        "type": "number"
+      },
+      {
+        "name": "wash_type",
+        "label": "Wash Type",
+        "type": "select",
+        "options": [
+          "express",
+          "basic",
+          "deluxe",
+          "premium",
+          "ultimate",
+          "detail",
+          "membership",
+          "fleet",
+          "specialty",
+          "seasonal"
+        ]
+      },
+      {
+        "name": "includes_interior",
+        "label": "Interior",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "includes_wax",
+        "label": "Wax",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "includes_tire",
+        "label": "Tire Shine",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "includes_underbody",
+        "label": "Underbody",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "popularity_score",
+        "label": "Popularity Score",
+        "type": "number"
+      },
+      {
+        "name": "profit_margin",
+        "label": "Profit Margin %",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "service-packages",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Service Packages"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/service-packages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "history",
+    "title": "History",
+    "group": "Car wash chain optimizer",
+    "description": "Organize history and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICarWashChainOptimizer",
+        "path": "ai-history",
+        "source": "/Volumes/external/projects/AICarWashChainOptimizer",
+        "kind": "route",
+        "label": "History"
+      }
+    ],
+    "owner": "AICarWashChainOptimizer",
+    "alternatives": [],
+    "path": "/features/history",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance-predict",
+    "title": "Maintenance Predict",
+    "group": "Poweredinteractive",
+    "description": "Organize maintenance predict and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/ai-maintenance-predict",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Maintenance Predict"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/maintenance-predict",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recall-impact",
+    "title": "Recall Impact",
+    "group": "Poweredinteractive",
+    "description": "Organize recall impact and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/ai-recall-impact",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Recall Impact"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/recall-impact",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-vehicle-health-monitoring",
+    "title": "Agentic vehicle health monitoring",
+    "group": "Poweredinteractive",
+    "description": "Organize agentic vehicle health monitoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/cf-agentic-vehicle-health-monitoring",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Agentic vehicle health monitoring"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/agentic-vehicle-health-monitoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "computer-vision-damage-assessment",
+    "title": "Computer vision damage assessment",
+    "group": "Poweredinteractive",
+    "description": "Organize computer vision damage assessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/cf-computer-vision-damage-assessment",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Computer vision damage assessment"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/computer-vision-damage-assessment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recall-proactive-management",
+    "title": "Recall proactive management",
+    "group": "Poweredinteractive",
+    "description": "Organize recall proactive management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/cf-recall-proactive-management",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Recall proactive management"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/recall-proactive-management",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "smart-maintenance-scheduling",
+    "title": "Smart maintenance scheduling",
+    "group": "Poweredinteractive",
+    "description": "Organize smart maintenance scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/cf-smart-maintenance-scheduling",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Smart maintenance scheduling"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/smart-maintenance-scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts-compatibility-optimization",
+    "title": "Parts compatibility optimization",
+    "group": "Poweredinteractive",
+    "description": "Organize parts compatibility optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/cf-parts-compatibility-optimization",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Parts compatibility optimization"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/parts-compatibility-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance-without-maintenance",
+    "title": "Maintenance without `/maintenance",
+    "group": "Poweredinteractive",
+    "description": "Organize maintenance without `/maintenance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-maintenance-without-maintenance",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Maintenance without `/maintenance"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/maintenance-without-maintenance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recalls-without-recall",
+    "title": "Recalls without `/recall",
+    "group": "Poweredinteractive",
+    "description": "Organize recalls without `/recall and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-recalls-without-recall",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Recalls without `/recall"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/recalls-without-recall",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "services-without-service",
+    "title": "Services without `/service",
+    "group": "Poweredinteractive",
+    "description": "Organize services without `/service and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-services-without-service",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Services without `/service"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/services-without-service",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-vehicle-api-integration-bmw-connecteddrive",
+    "title": "No real vehicle API integration (BMW ConnectedDrive, Tesla API, OBD2)",
+    "group": "Poweredinteractive",
+    "description": "Prepare no real vehicle api integration (bmw connecteddrive, tesla api, obd2) requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-real-vehicle-api-integration-bmw-connecteddrive",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No real vehicle API integration (BMW ConnectedDrive, Tesla API, OBD2)"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/real-vehicle-api-integration-bmw-connecteddrive",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts-ordering-integration-with-retailers",
+    "title": "No parts ordering (integration with retailers)",
+    "group": "Poweredinteractive",
+    "description": "Prepare no parts ordering (integration with retailers) requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-parts-ordering-integration-with-retailers",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No parts ordering (integration with retailers)"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/parts-ordering-integration-with-retailers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "integration-with-mechanics-service-shops",
+    "title": "No integration with mechanics/service shops",
+    "group": "Poweredinteractive",
+    "description": "Prepare no integration with mechanics/service shops requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-integration-with-mechanics-service-shops",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No integration with mechanics/service shops"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/integration-with-mechanics-service-shops",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointment-booking-scheduling-module",
+    "title": "No appointment booking/scheduling module",
+    "group": "Poweredinteractive",
+    "description": "Organize no appointment booking/scheduling module and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-appointment-booking-scheduling-module",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No appointment booking/scheduling module"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/appointment-booking-scheduling-module",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notifications-module-grep-0",
+    "title": "No notifications module (grep 0)",
+    "group": "Poweredinteractive",
+    "description": "Organize no notifications module (grep 0) and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-notifications-module-grep-0",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No notifications module (grep 0)"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/notifications-module-grep-0",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit-logging-grep-0",
+    "title": "No audit logging (grep 0)",
+    "group": "Poweredinteractive",
+    "description": "Organize no audit logging (grep 0) and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-audit-logging-grep-0",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No audit logging (grep 0)"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/audit-logging-grep-0",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks-for-recall-safety-alerts",
+    "title": "No webhooks for recall/safety alerts",
+    "group": "Poweredinteractive",
+    "description": "Prepare no webhooks for recall/safety alerts requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-webhooks-for-recall-safety-alerts",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No webhooks for recall/safety alerts"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/webhooks-for-recall-safety-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mobile-app-despite-consumer",
+    "title": "No mobile app despite consumer",
+    "group": "Poweredinteractive",
+    "description": "Organize no mobile app despite consumer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/gap-no-mobile-app-despite-consumer",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "No mobile app despite consumer"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/mobile-app-despite-consumer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manuals",
+    "title": "Owner Manuals",
+    "group": "Poweredinteractive",
+    "description": "Organize owner manuals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/manuals",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Owner Manuals"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "manuals",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Owner Manuals"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/manuals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "specs",
+    "title": "Tech Specs",
+    "group": "Poweredinteractive",
+    "description": "Organize tech specs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/specs",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Tech Specs"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "specs",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Tech Specs"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/specs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "troubleshooting",
+    "title": "Troubleshooting",
+    "group": "Poweredinteractive",
+    "description": "Organize troubleshooting and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/troubleshooting",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Troubleshooting"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "troubleshooting",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Troubleshooting"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/troubleshooting",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance",
+    "title": "Maintenance",
+    "group": "Poweredinteractive",
+    "description": "Organize maintenance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/maintenance",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Maintenance"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "maintenance",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+        "kind": "definition",
+        "label": "Maintenance Advisor"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "maintenance",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Maintenance"
+      },
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/maintenance-schedules",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Maintenance"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/maintenance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "warnings",
+    "title": "Warning Lights",
+    "group": "Poweredinteractive",
+    "description": "Organize warning lights and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/warnings",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Warning Lights"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "warnings",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Warning Lights"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/warnings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "safety",
+    "title": "Safety Features",
+    "group": "Poweredinteractive",
+    "description": "Organize safety features and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/safety",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Safety Features"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "safety",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Safety Features"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/safety",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "faq",
+    "title": "FAQ",
+    "group": "Poweredinteractive",
+    "description": "Organize faq and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/faq",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "FAQ"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "faq",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "FAQ"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/faq",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tutorials",
+    "title": "Tutorials",
+    "group": "Poweredinteractive",
+    "description": "Organize tutorials and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/tutorials",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Tutorials"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "tutorials",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Tutorials"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/tutorials",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recalls",
+    "title": "Recall Notices",
+    "group": "Poweredinteractive",
+    "description": "Organize recall notices and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/recalls",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Recall Notices"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "recalls",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Recall Notices"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/recalls",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts",
+    "title": "Parts Catalog",
+    "group": "Poweredinteractive",
+    "description": "Organize parts catalog and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/parts",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Parts Catalog"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "parts",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+        "kind": "definition",
+        "label": "Parts Advisor"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "parts",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Parts Catalog"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/parts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "services",
+    "title": "Service Centers",
+    "group": "Poweredinteractive",
+    "description": "Organize service centers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/services",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Service Centers"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "services",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Service Centers"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/services",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "warranty",
+    "title": "Warranty Info",
+    "group": "Poweredinteractive",
+    "description": "Organize warranty info and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "/warranty",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Warranty Info"
+      },
+      {
+        "module": "AIpoweredinteractive",
+        "path": "warranty",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Warranty Info"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/warranty",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chat",
+    "title": "General Chat",
+    "group": "Poweredinteractive",
+    "description": "Organize general chat and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "chat",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+        "kind": "definition",
+        "label": "General Chat"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/chat",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "diagnose",
+    "title": "AI Diagnostics",
+    "group": "Poweredinteractive",
+    "description": "Organize ai diagnostics and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "diagnose",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+        "kind": "definition",
+        "label": "AI Diagnostics"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/diagnose",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "warning",
+    "title": "Warning Explainer",
+    "group": "Poweredinteractive",
+    "description": "Organize warning explainer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIpoweredinteractive",
+        "path": "warning",
+        "source": "/Volumes/external/projects/AIpoweredinteractive/frontend/src/pages/AIAssistant.js",
+        "kind": "definition",
+        "label": "Warning Explainer"
+      }
+    ],
+    "owner": "AIpoweredinteractive",
+    "alternatives": [],
+    "path": "/features/warning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "compliance",
+    "title": "State Compliance",
+    "group": "Vehicle inspection certification",
+    "description": "Organize state compliance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/compliance",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "State Compliance"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/compliance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "condition-scores",
+    "title": "Condition Scoring",
+    "group": "Vehicle inspection certification",
+    "description": "Organize condition scoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/condition-scores",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Condition Scoring"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/condition-scores",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "market-values",
+    "title": "Market Valuation",
+    "group": "Vehicle inspection certification",
+    "description": "Organize market valuation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/market-values",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Market Valuation"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/market-values",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "damage-reports",
+    "title": "Damage Detection",
+    "group": "Vehicle inspection certification",
+    "description": "Organize damage detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/damage-reports",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Damage Detection"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/damage-reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vehicle-history",
+    "title": "Vehicle History",
+    "group": "Vehicle inspection certification",
+    "description": "Organize vehicle history and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/vehicle-history",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Vehicle History"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/vehicle-history",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recall-alerts",
+    "title": "Recall Alerts",
+    "group": "Vehicle inspection certification",
+    "description": "Organize recall alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/recall-alerts",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Recall Alerts"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/recall-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-estimates",
+    "title": "Insurance Estimates",
+    "group": "Vehicle inspection certification",
+    "description": "Organize insurance estimates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/insurance-estimates",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Insurance Estimates"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/insurance-estimates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fleet-summary",
+    "title": "Fleet Summary",
+    "group": "Vehicle inspection certification",
+    "description": "Organize fleet summary and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/fleet-summary",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Fleet Summary"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/fleet-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vin-decoder",
+    "title": "VIN Decoder",
+    "group": "Vehicle inspection certification",
+    "description": "Organize vin decoder and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/vin-decoder",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "VIN Decoder"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/vin-decoder",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vision-damage",
+    "title": "Vision Damage",
+    "group": "Vehicle inspection certification",
+    "description": "Organize vision damage and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/vision-damage",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Vision Damage"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/vision-damage",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "certificates",
+    "title": "Certificates",
+    "group": "Vehicle inspection certification",
+    "description": "Organize certificates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/certificates",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Certificates"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/certificates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive-maintenance",
+    "title": "AI Predictive Maint.",
+    "group": "Vehicle inspection certification",
+    "description": "Organize ai predictive maint. and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/ai/predictive-maintenance",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "AI Predictive Maint."
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/predictive-maintenance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-estimate",
+    "title": "AI Insurance Est.",
+    "group": "Vehicle inspection certification",
+    "description": "Organize ai insurance est. and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/ai/insurance-estimate",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "AI Insurance Est."
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/insurance-estimate",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recall-summary",
+    "title": "AI Recall Summary",
+    "group": "Vehicle inspection certification",
+    "description": "Organize ai recall summary and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/ai/recall-summary",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "AI Recall Summary"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/recall-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nhtsa-recall-lookup",
+    "title": "NHTSA Recall Lookup",
+    "group": "Vehicle inspection certification",
+    "description": "Organize nhtsa recall lookup and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/ai/nhtsa-recall-lookup",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "NHTSA Recall Lookup"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/nhtsa-recall-lookup",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts-price-monitor",
+    "title": "Parts Price Monitor",
+    "group": "Vehicle inspection certification",
+    "description": "Organize parts price monitor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/ai/parts-price-monitor",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Parts Price Monitor"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/parts-price-monitor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "adas-calibration-readiness",
+    "title": "ADAS Calibration",
+    "group": "Vehicle inspection certification",
+    "description": "Organize adas calibration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/adas-calibration-readiness",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/components/Layout.js",
+        "kind": "definition",
+        "label": "ADAS Calibration"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/adas-calibration-readiness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance-schedules",
+    "title": "Maintenance Schedule",
+    "group": "Vehicle inspection certification",
+    "description": "Recommended maintenance tracking with priority and cost estimates. Never miss a critical service again.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "/maintenance-schedules",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification/client/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Maintenance Schedule"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/maintenance-schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vision-based-damage-assessment-from-photos-with-repair-cost",
+    "title": "vision based damage assessment from photos with repair cost",
+    "group": "Vehicle inspection certification",
+    "description": "Organize vision based damage assessment from photos with repair cost and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "cf-vision-based-damage-assessment-from-photos-with-repair-cost",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "vision based damage assessment from photos with repair cost"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/vision-based-damage-assessment-from-photos-with-repair-cost",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive-maintenance-flagging-vehicles-by-age-mileage-condition",
+    "title": "predictive maintenance flagging vehicles by age mileage condition",
+    "group": "Vehicle inspection certification",
+    "description": "Organize predictive maintenance flagging vehicles by age mileage condition and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "cf-predictive-maintenance-flagging-vehicles-by-age-mileage-condition",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "predictive maintenance flagging vehicles by age mileage condition"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/predictive-maintenance-flagging-vehicles-by-age-mileage-condition",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts-price-monitoring-with-bulk-order-timing-recommendations",
+    "title": "parts price monitoring with bulk order timing recommendations",
+    "group": "Vehicle inspection certification",
+    "description": "Organize parts price monitoring with bulk order timing recommendations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "cf-parts-price-monitoring-with-bulk-order-timing-recommendations",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "parts price monitoring with bulk order timing recommendations"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/parts-price-monitoring-with-bulk-order-timing-recommendations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "repair-shop-network-with-quality-ratings",
+    "title": "repair shop network with quality ratings",
+    "group": "Vehicle inspection certification",
+    "description": "Organize repair shop network with quality ratings and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "cf-repair-shop-network-with-quality-ratings",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "repair shop network with quality ratings"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/repair-shop-network-with-quality-ratings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-claim-automation-generating-filings-from-damage-photos",
+    "title": "insurance claim automation generating filings from damage photos",
+    "group": "Vehicle inspection certification",
+    "description": "Organize insurance claim automation generating filings from damage photos and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "cf-insurance-claim-automation-generating-filings-from-damage-photos",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "insurance claim automation generating filings from damage photos"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/insurance-claim-automation-generating-filings-from-damage-photos",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vin-decoder-integration-for-auto-populated-vehicle-profiles",
+    "title": "vin decoder integration for auto populated vehicle profiles",
+    "group": "Vehicle inspection certification",
+    "description": "Prepare vin decoder integration for auto populated vehicle profiles requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "cf-vin-decoder-integration-for-auto-populated-vehicle-profiles",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "vin decoder integration for auto populated vehicle profiles"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/vin-decoder-integration-for-auto-populated-vehicle-profiles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "critical-no-ai-for-damage-assessment-from-photos",
+    "title": "critical no ai for damage assessment from photos",
+    "group": "Vehicle inspection certification",
+    "description": "Organize critical no ai for damage assessment from photos and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-critical-no-ai-for-damage-assessment-from-photos",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "critical no ai for damage assessment from photos"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/critical-no-ai-for-damage-assessment-from-photos",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive-maintenance-ml",
+    "title": "predictive maintenance ml",
+    "group": "Vehicle inspection certification",
+    "description": "Organize predictive maintenance ml and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-predictive-maintenance-ml",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "predictive maintenance ml"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/predictive-maintenance-ml",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-estimate-generation-ai",
+    "title": "insurance estimate generation ai",
+    "group": "Vehicle inspection certification",
+    "description": "Organize insurance estimate generation ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-insurance-estimate-generation-ai",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "insurance estimate generation ai"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/insurance-estimate-generation-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fraud-detection-on-inspection-data",
+    "title": "fraud detection on inspection data",
+    "group": "Vehicle inspection certification",
+    "description": "Organize fraud detection on inspection data and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-fraud-detection-on-inspection-data",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "fraud detection on inspection data"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/fraud-detection-on-inspection-data",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "integration-with-oem-recall-databases-only-manual",
+    "title": "integration with oem recall databases only manual",
+    "group": "Vehicle inspection certification",
+    "description": "Prepare integration with oem recall databases only manual requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-integration-with-oem-recall-databases-only-manual",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "integration with oem recall databases only manual"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/integration-with-oem-recall-databases-only-manual",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts-supplier-integration",
+    "title": "parts supplier integration",
+    "group": "Vehicle inspection certification",
+    "description": "Prepare parts supplier integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-parts-supplier-integration",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "parts supplier integration"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/parts-supplier-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "third-party-repair-shop-network",
+    "title": "third party repair shop network",
+    "group": "Vehicle inspection certification",
+    "description": "Organize third party repair shop network and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-third-party-repair-shop-network",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "third party repair shop network"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/third-party-repair-shop-network",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-claim-integration-direct-insurer-api",
+    "title": "insurance claim integration direct insurer api",
+    "group": "Vehicle inspection certification",
+    "description": "Prepare insurance claim integration direct insurer api requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-insurance-claim-integration-direct-insurer-api",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "insurance claim integration direct insurer api"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/insurance-claim-integration-direct-insurer-api",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks-notifications-for-recall-events",
+    "title": "webhooks notifications for recall events",
+    "group": "Vehicle inspection certification",
+    "description": "Prepare webhooks notifications for recall events requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-webhooks-notifications-for-recall-events",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "webhooks notifications for recall events"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/webhooks-notifications-for-recall-events",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "customer-self-service-portal",
+    "title": "customer self service portal",
+    "group": "Vehicle inspection certification",
+    "description": "Organize customer self service portal and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIVehicleInspectionCertification",
+        "path": "gap-no-customer-self-service-portal",
+        "source": "/Volumes/external/projects/AIVehicleInspectionCertification",
+        "kind": "route",
+        "label": "customer self service portal"
+      }
+    ],
+    "owner": "AIVehicleInspectionCertification",
+    "alternatives": [],
+    "path": "/features/customer-self-service-portal",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-tickets",
+    "title": "Tickets",
+    "group": "Repair shop",
+    "description": "Organize tickets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/tickets",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Tickets"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-tickets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-orders",
+    "title": "Orders",
+    "group": "Repair shop",
+    "description": "Organize orders and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/orders",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Orders"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-orders",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-quotes",
+    "title": "Quotes",
+    "group": "Repair shop",
+    "description": "Organize quotes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/quotes",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Quotes"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-quotes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-warranty-claims",
+    "title": "Warranty Claims",
+    "group": "Repair shop",
+    "description": "Organize warranty claims and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/warranty-claims",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Warranty Claims"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-warranty-claims",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-pos",
+    "title": "Point of Sale",
+    "group": "Repair shop",
+    "description": "Organize point of sale and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/pos",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Point of Sale"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-pos",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-repair-sla-monitor",
+    "title": "Repair SLA Monitor",
+    "group": "Repair shop",
+    "description": "Organize repair sla monitor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/repair-sla-monitor",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Repair SLA Monitor"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-repair-sla-monitor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-ai",
+    "title": "AI Tools",
+    "group": "Repair shop",
+    "description": "Organize ai tools and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/ai",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "AI Tools"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dashboard-settings",
+    "title": "Settings",
+    "group": "Repair shop",
+    "description": "Organize settings and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "repairShop",
+        "path": "/dashboard/settings",
+        "source": "/Volumes/external/projects/repairShop/src/app/(dashboard)/layout.tsx",
+        "kind": "definition",
+        "label": "Settings"
+      }
+    ],
+    "owner": "repairShop",
+    "alternatives": [],
+    "path": "/features/dashboard-settings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

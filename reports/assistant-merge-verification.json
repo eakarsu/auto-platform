@@ -1,0 +1,20 @@
+{
+  "id": "auto-platform",
+  "status": "passed",
+  "previousAIEntries": 49,
+  "mergedAssistants": 8,
+  "capabilitiesMappedExactlyOnce": true,
+  "canonicalPagesAndAliases": true,
+  "combinedQuestions": true,
+  "singleProviderCall": true,
+  "exactDuplicateRemoval": true,
+  "legacyHistoryPreserved": true,
+  "followups": true,
+  "sharedRecordContext": true,
+  "assistantIsolation": true,
+  "combinedWordLimit": true,
+  "mobile": true,
+  "nonAIPopup": true,
+  "provider": "mocked",
+  "verifiedAt": "2026-09-07T20:16:07.836Z"
+}
